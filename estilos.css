@@ -1,0 +1,268 @@
+
+
+.bodyt {
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+transition: background-color 2s ease;
+background-color: rgb(37, 38, 99);
+}
+
+.seleccion1 a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 19px;
+    font-weight: bold;
+}
+
+.seleccion1 li{
+    display: inline-block;
+}
+
+.seleccion1{
+    float: left;
+    margin-left: 400px;
+}
+
+.seleccion1 a:hover{
+    background: rgb(104, 97, 202);
+    border-radius: 20px;
+}
+
+.titulo1{
+text-align: center;
+margin: center;
+padding-top: 5%;
+font-size: 90px; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(166, 221, 221);
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+}
+
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.parrafo1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.pics1 {
+    width: 550px;
+    height: 200px;
+    padding: 25px;
+}
+
+.photo{
+    text-align: center;
+}
+
+.photo{
+    width: 650px;
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo img{
+    width: 100%;
+    height: auto;
+    transition: all .5s;
+    border-radius: 6px;
+}
+
+.photo:hover img{
+    transform: scale(1.15);
+}
+
+.photo .parrafo2{
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align: justify;
+    height: 50%;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.parrafo2 h3{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #808080;
+    padding: 0 10px 20px 10px;
+    color: black;
+}
+
+.photo p{
+    padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid #808080;  
+    color: black;
+}
+
+.photo:hover .parrafo2{
+    top: 0%;
+}
+
+.columnai{
+    float: left;
+    width: 48%;
+}
+
+.columnad{
+    float: right;
+    width: 48%;
+}
+
+.pics2 {
+    width: 550px;
+    height: 200px;
+    padding: 25px;
+}
+
+.photo2{
+    text-align: center;
+}
+
+.photo2{
+    width: 650px;
+    margin: 60px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo2 img{
+    width: 100%;
+    height: auto;
+    transition: all .5s;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.photo2:hover img{
+    transform: scale(1.15);
+}
+
+.photo2 .parrafo3{
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align: justify;
+    height: 50%;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.parrafo3 h3{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #808080;
+    padding: 0 10px 20px 10px;
+    color: black;
+}
+
+.photo2 p{
+    padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid #808080;  
+    color: black;
+}
+
+.photo2:hover .parrafo3{
+    top: 0%;
+}
+
+.pics3 {
+    width: 550px;
+    height: 200px;
+    padding: 25px;
+}
+
+.photo3{
+    text-align: center;
+}
+
+.photo3{
+    width: 650px;
+    margin: 60px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo3 img{
+    width: 100%;
+    height: auto;
+    transition: all .5s;
+    border-radius: 6px;
+}
+
+.photo3:hover img{
+    transform: scale(1.15);
+}
+
+.photo3 .parrafo4{
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align: justify;
+    height: 50%;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.parrafo4 h3{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #808080;
+    padding: 0 10px 20px 10px;
+    color: black;
+}
+
+.photo3 p{
+    padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid #808080;  
+    color: black;
+}
+
+.photo3:hover .parrafo4{
+    top: 0%;
+}
+
+.fn1{
+text-align: center;
+margin: center;
+padding-top: 1%;
+font-size: 90px; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(166, 221, 221);
+}
+
+.parraf{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+coli{
+    display: flex;
+    align-items: center;
+}
+
+.ima6{
+float: right;
+border-radius: 15px;
+padding-inline: 10px;
+}
+
+.ima5{
+    border-radius: 15px;
+}
